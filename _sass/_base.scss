@@ -11,11 +11,6 @@
      scroll-behavior: smooth;
     }
 
-    * {
-    font-family: 'Overpass' !important;
-    box-sizing: border-box;
-    }
-
 /* Basic Styling
  * ============================================== */
     body {
@@ -200,6 +195,10 @@
 input {
       font-size: 16px;
       font-family: "Overpass";
+}
+
+button {
+     font-family: 'Overpass' !important;
 }
 
 form textarea {
