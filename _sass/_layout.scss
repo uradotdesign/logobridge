@@ -30,6 +30,18 @@
     text-transform: uppercase;
     padding: 12px 24px;
     box-sizing: border-box;
+
+    &:hover {
+    background-color: #444;
+    color: #fff;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    }
+
+    &:active {
+    background-color: #000;
+    }
 }
 
     .button-free {
@@ -55,20 +67,21 @@
     .button-premium {
     display: inline-block;
     text-decoration: none !important;
-    color: #000 !important;
-    background-color: #fff; 
+    color: #fff !important;
+    background-color: #257BAD; 
     font-size: 16px !important;
     font-weight: 600;
     text-transform: uppercase;
-    border: 3px solid #FFFFFF;
+    border: 3px solid #257BAD;
     box-sizing: border-box;
     border-radius: 10px;
     padding: 12px 20px;
     margin-left: 15px;
 
     &:hover {
-    background-color: #000 !important;
-    color: #fff !important;
+    background-color: #fff !important;
+    color: #000 !important;
+    border: 3px solid #fff;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
