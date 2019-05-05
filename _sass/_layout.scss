@@ -23,6 +23,8 @@
 
 .button-download {
     background: #E2E2E2;
+    color: #000;
+    border: #E2E2E2;
     border-radius: 10px;
     text-decoration: none !important;
     font-size: 16px !important;
@@ -30,18 +32,7 @@
     text-transform: uppercase;
     padding: 12px 24px;
     box-sizing: border-box;
-
-    &:hover {
-    background-color: #444;
-    color: #fff;
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-    }
-
-    &:active {
-    background-color: #000;
-    }
+    cursor: pointer;
 }
 
     .button-free {
@@ -312,6 +303,14 @@
     text-align: left;
     }
 
+     .align-right {
+    text-align: right;
+    }
+
+    .center {
+    text-align: center;
+    }
+
     .bg-mute {
     background-color: #F4F4F4;
     min-height: 500px;
@@ -328,8 +327,10 @@
     margin: 0 auto;
     }
 
-    .center {
-    text-align: center;
+    .grayscale {
+    opacity: 0.65;
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
     }
 
     .box {
@@ -338,16 +339,24 @@
     border: 1px solid #E2E2E2;
     box-sizing: border-box;
     text-align: center;
-    margin-bottom: 25px;
+    margin-bottom: -22.5px;
     margin-top: 25px;
+    }
 
-    &:hover {
-        border: 2px solid #000;
+.hover-box:hover .button-download {
+     background-color: #000;
+     color: #fff;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+     transition: all 0.3s ease-in-out;
+}
+
+.hover-box:hover .box {
+        border: 1px solid #000;
         -webkit-transition: all 0.3s ease-in-out;
         -moz-transition: all 0.3s ease-in-out;
         transition: all 0.3s ease-in-out;
-    }
-    }
+}
 
 .row {
     display: -webkit-box;
@@ -382,4 +391,3 @@
          flex-basis: auto;
     }
 }
-
