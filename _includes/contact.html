@@ -10,18 +10,18 @@
 <div class="pt-3 pb-2 align-left">
         <form action="https://formspree.io/logobridge@ura.design" method="POST">
                 <label for="name">What’s the <strong>Name</strong> of your project you need a logo for?</label>
-          <input class='required' name='name' placeholder='Project Name' type='text'>
+          <input class='required' name='name' placeholder='Project Name' type='text' required>
            <div class="pt-2">
               <label for="E-mail">What is your <strong>Email Address</strong>?</label>
-          <input class='required email' name='E-mail' placeholder='E-Mail' type='text'>
+          <input class='required email' name='E-mail' placeholder='E-Mail' type='text' required>
           </div>
       <div class="pt-2">
                     <label for="message">Tell us more about your project. What type of logo are you looking for? What is the audience and what do you aim to accomplish with your project? Help us help you.</label>
-                    <textarea name='message' placeholder=''></textarea>
+                    <textarea name='message' placeholder='' required></textarea>
                 </div>
                     <div class="pt-2">
                 <label for="budget">Name a <strong>Price</strong>  (USD $)</label>
-                  <input class='required' name='budget' placeholder='> 100' type='number' min="100" max="9999999">
+                  <input class='required' name='budget' placeholder='> 100' type='number' min="100" max="9999999" required>
               </div>
                   <div class="center pt-3">
             <input class="button-submit" type="submit" value="Submit logo request">
