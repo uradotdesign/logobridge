@@ -68,11 +68,11 @@
     display: inline-block;
     text-decoration: none !important;
     color: #fff !important;
-    background-color: #000; 
+    background-color: #257BAD; 
     font-size: 16px !important;
     font-weight: 600;
     text-transform: uppercase;
-    border: 3px solid #000;
+    border: 3px solid #257BAD;
     box-sizing: border-box;
     border-radius: 10px;
     padding: 12px 20px;
@@ -80,8 +80,8 @@
 
     &:hover {
     background-color: transparent !important;
-    color: #000 !important;
-    border: 3px solid #000;
+    color: #257BAD !important;
+    border: 3px solid #257BAD;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
@@ -146,7 +146,6 @@
         float: right;
         font-size: 28px;
         line-height: 56px;
-        margin-top: 10px;
         margin-right: 50px;
         padding-bottom: 100px;
 
@@ -325,6 +324,13 @@
     box-sizing: border-box;
     text-align: center;
     margin-bottom: 25px;
+
+    &:hover {
+        transform: scale(1.05);
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+    }
     }
 
 .row {
