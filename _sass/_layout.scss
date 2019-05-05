@@ -1,7 +1,7 @@
 /* Site Header
  * ============================================== */
     .site-header {
-        min-height: 500px;
+        min-height: 450px;
         background-color: $brand-color;
         background-image: url('');
         background-size: cover;
@@ -28,7 +28,7 @@
     font-size: 16px !important;
     font-weight: 600;
     text-transform: uppercase;
-    padding: 17px 24px;
+    padding: 12px 24px;
     box-sizing: border-box;
 }
 
@@ -41,7 +41,7 @@
     border: 3px solid #FFFFFF;
     box-sizing: border-box;
     border-radius: 10px;
-    padding: 17px 24px;
+    padding: 12px 20px;
 
     &:hover {
     background-color: #fff !important;
@@ -63,7 +63,7 @@
     border: 3px solid #FFFFFF;
     box-sizing: border-box;
     border-radius: 10px;
-    padding: 17px 24px;
+    padding: 12px 20px;
     margin-left: 15px;
 
     &:hover {
@@ -85,7 +85,7 @@
     }
 
     .site-header p {
-    font-size: 24px;
+    font-size: 20px;
     }
 
     .site-header h1 {
@@ -313,4 +313,9 @@
     max-width: 100%;
     padding-right: 15px;
     padding-left: 15px;
+    line-height: 1.4;
+}
+
+.non-justify {
+    text-align: initial;
 }
