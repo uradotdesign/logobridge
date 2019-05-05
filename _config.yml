@@ -4,7 +4,7 @@ email:
 description: > # this means to ignore newlines until "baseurl:"
   Logobridge is a collection of unused logo proposals in the Public Domain, so you are free to use them as a placeholder for your project or as a template for your upcoming logo.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://uracreative.github.io/logobridge" # the base hostname & protocol for your site
+url: "/" # the base hostname & protocol for your site
 twitter_username: uracreative
 github_username: uracreative
 
