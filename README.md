@@ -1,10 +1,14 @@
-## License
-The MIT License (MIT)
+## Logobridge
 
-Copyright (c) 2019 Ura Design
+Logobridge is a collection of unused logo proposals over the past months and years, which are getting dusty already with no one using them.
+Use them as a placeholder for your project or as a template for your upcoming logo.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+All logos are in the Public Domain, so you are free to do whatever you want with it (commercially as well).
+They are also created with Inkscape, which is Free & Open Source Software.
+It’s a great way to kick off your open source project when you need to gather something quickly.
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+### Website
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+The website was designed to be as lightweight as possible and because of this it doesn't use JavaScript to work. The underlying technology used is Jekyll and there is no framework used. CSS is built from SCSS files and everything is contained to remove the need for 3rd party assets and unnecessary connections.
+
+This project is maintained by Ura Design.
