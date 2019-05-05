@@ -103,7 +103,7 @@
     transition: all 0.3s ease-in-out;
     }
 
-    @include media-query($on-palm) {
+    @include media-query($on-phone) {
         margin-top: 20px;
         margin-left: 0px;
         }
@@ -387,7 +387,7 @@
     padding-left: 15px;
     line-height: 1.4;
 
-    @include media-query($on-palm) {
+    @include media-query($on-phone) {
          flex-basis: auto;
     }
 }
