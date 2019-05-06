@@ -103,7 +103,7 @@
     transition: all 0.3s ease-in-out;
     }
 
-    @include media-query($on-phone) {
+    @include media-query($small) {
         margin-top: 20px;
         margin-left: 0px;
         }
