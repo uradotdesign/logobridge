@@ -390,4 +390,8 @@
     @include media-query($on-phone) {
          flex-basis: auto;
     }
+
+    @include media-query($on-test) {
+         flex-basis: auto;
+    }
 }
