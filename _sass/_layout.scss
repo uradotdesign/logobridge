@@ -136,15 +136,16 @@
 
     .site-nav {
         float: right;
-        font-size: 28px;
+        font-size: 24px;
         line-height: 56px;
         margin-right: 50px;
         padding-bottom: 100px;
 
         .page-link {
             line-height: $base-line-height;
-            font-weight: bold;
+            font-weight: regular;
             letter-spacing: 0.05em;
+            opacity: 0.5;
 
             &:not(:first-child) {
                 margin-left: 20px;
@@ -152,7 +153,11 @@
         }
 
         .page-link:hover {
-            opacity: 0.8;
+            opacity: 0.75;
+
+            &:active {
+            opacity: 1;
+            }
         }
 
         @include media-query($on-palm) {
@@ -329,7 +334,6 @@
 
     .language {
         text-decoration: none !important;
-        font-size: 20px !important;
     }
 
     .bg-mute {
