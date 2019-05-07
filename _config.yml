@@ -1,11 +1,11 @@
 # Site settings
 title: Logobridge
-email: 
+email: logobridge@ura.design
 description: > # this means to ignore newlines until "baseurl:"
-  Logobridge is a collection of unused logo proposals in the Public Domain, so you are free to use them as a placeholder for your project or as a template for your upcoming logo.
+  Logobridge is a collection of public domain logos which can be used by anyone without any restrictions. Need a custom logo with exclusive rights? Name a price and we will create one tailored for you.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://logobridge.co" # the base hostname & protocol for your site
-twitter_username: uracreative
+twitter_username: logobridge
 github_username: uracreative
 
 # Build settings
